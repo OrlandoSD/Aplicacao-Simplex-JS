@@ -1,19 +1,24 @@
 {
-  "name": "aplicacao-simples-js",
-  "version": "1.0.0",
-  "description": "introducao pratica ao TypeScript",
-  "main": "y",
-  "scripts": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/OrlandoSD/Aplicacao-Simplex-JS.git"
-  },
-  "keywords": [
-    "meu",
-    "repositorio"
-  ],
-  "author": "OrlandoSD",
-  "license": "ISC"
+    "name": "aplicacao-simples-js",
+    "version": "1.0.0",
+    "description": "introducao pratica ao TypeScript",
+    "main": "y",
+    "scripts": {
+        "test": "test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/OrlandoSD/Aplicacao-Simplex-JS.git"
+    },
+    "keywords": [
+        "meu",
+        "repositorio"
+    ],
+    "author": "OrlandoSD",
+    "license": "ISC",
+    "devDependencies": {
+        "gulp": "^4.0.0",
+        "gulp-typescript": "^6.0.0-alpha.1",
+        "typescript": "^4.7.3"
+    }
 }
