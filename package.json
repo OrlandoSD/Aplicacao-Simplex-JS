@@ -4,7 +4,9 @@
     "description": "introducao pratica ao TypeScript",
     "main": "y",
     "scripts": {
-        "test": "test"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "lite-server",
+        "watch": "tsc --watch"
     },
     "repository": {
         "type": "git",
@@ -20,5 +22,8 @@
         "gulp": "^4.0.0",
         "gulp-typescript": "^6.0.0-alpha.1",
         "typescript": "^4.7.3"
+    },
+    "dependencies": {
+        "lite-server": "^2.6.1"
     }
 }
